@@ -13,4 +13,4 @@ const expenses = [
   }
 ];
 
-module.exports = expenses;x
+module.exports = expenses;
