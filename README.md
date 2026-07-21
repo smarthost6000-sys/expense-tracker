@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Expense Tracker API is a RESTful API built with **Node.js** and **Express.js**. It allows users to manage their daily expenses through Create, Read, Update, and Delete (CRUD) operations.
+The Expense Tracker API project is a RESTful API built with **Node.js** and **Express.js**. It allows users to manage their daily expenses through Create, Read, Update, and Delete (CRUD) operations.
 
 ---
 
