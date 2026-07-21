@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     project: "Expense Tracker API",
     version: "1.0.0",
     description: "A RESTful API for managing expenses built with Node.js and Express.",
-    group: "Group 3 - Controllers",
+    group: "Group 3",
     endpoints: {
       "GET /expenses": "Get all expenses",
       "GET /expenses/:id": "Get a single expense",
