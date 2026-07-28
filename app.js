@@ -6,6 +6,12 @@ const app = express();
 // Middleware
 app.use(express.json());
 
+// Logging middleware
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.url} - ${new Date()}`);//logs every request method and url with timestamp  
+  next();
+});
+
 // Home Route
 app.get("/", (req, res) => {
   res.status(200).json({
